@@ -1,0 +1,733 @@
+:root {
+    --primary: #1eb083;
+    --primary-rgb: 30, 176, 131;
+    --secondary: #00272e;
+    --secondary-rgb: 0, 39, 46;
+    --dark-theme: #105357;    
+    --light: #f3f6f7;
+    --light-gray: #fafafa;
+    --primary-light: #cde1d8;
+    --white: #ffffff;
+    --default-text: #56646b;
+}
+.navbar .dropdown-item.active,
+.navbar .dropdown-item:focus,
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:active,
+.navbar .dropdown-menu > li.show > a {
+    color: var(--primary);
+}
+
+@media (min-width: 991.99px){
+    .header-anim.fixed-top {
+        background-color: rgba(var(--secondary-rgb), 0.7);
+    }
+}
+.home-coworking{
+    background: var(--primary);
+    padding: 3rem 0 0 0;
+}
+.home-coworking .d-flex .btn{
+    white-space: nowrap;
+
+}
+.home-coworking .banner-shadow {
+    background-image: url(../images/co-working/banner-shadow.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    z-index: 1;
+    top: -15%;
+    right: -6%;
+}
+.home-coworking .home-default-banner .container{
+    padding-top: 5rem;
+}
+.home-coworking .row{
+    position: relative;
+    z-index: 3;
+}
+.home-coworking header{
+    position: relative;
+    z-index: 99;
+}
+
+.home-coworking .marketing-banner{
+    padding: 0;
+}
+.home-coworking .marketing-banner .title > span{
+    background: var(--dark-theme);
+    color: var(--white);
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+.square-feet{
+    color: var(--white);
+    transform: translateX(-33.2%);
+}
+.square-feet span{
+    padding-left: 1.5rem;
+    padding-bottom: 0.7rem;
+    font-weight: 600;
+    font-size: 1.125rem;
+    display: block;
+}
+.square-feet .counter-wrap{
+    padding: 1.5rem;
+    background: var(--dark-theme);
+    color: var(--white);
+    clip-path: polygon(0 0, 100% 0, 74% 100%, 0% 100%);
+}
+.square-feet .counter-wrap h2{
+    font-size: 3.75rem;
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.square-feet .counter-wrap h6{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #b1c5be;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.slider-wrap {
+    padding: 3rem 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.slides-wrap{
+    background: var(--secondary);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.3);
+    margin-bottom: -3rem;
+}
+#home-coworking-banner.top-right-arrow .owl-nav{
+    top: 30px;
+    right: 30px;
+}
+
+#home-coworking-banner.owl-carousel.top-right-arrow .owl-nav button.owl-prev, 
+#home-coworking-banner.owl-carousel.top-right-arrow .owl-nav button.owl-next{
+    background: var(--secondary);
+    color: var(--primary-light);
+}
+
+#home-coworking-banner.owl-carousel.top-right-arrow .owl-nav button.owl-prev:hover, 
+#home-coworking-banner.owl-carousel.top-right-arrow .owl-nav button.owl-next:hover{
+    background: #cdd3d3;
+    color: var(--secondary);
+}
+
+#home-coworking-banner.owl-carousel.top-right-arrow .owl-nav button.owl-prev{
+    margin-right: 2px;
+}
+.booking-form{
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    width: 400px;
+    z-index: 4;
+    height: 100%;
+}
+.booking-form h3{
+    color: var(--white);
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.booking-form .form-elements{
+    padding: 3rem;
+    background: var(--white);
+    box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.08);      
+}
+.booking-form .form-elements .form-control{
+    background: var(--light);
+    border: none;
+}
+
+.bordered.form-check-input:checked{
+    border-color: var(--primary);
+    background-color: var(--primary);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23FFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.select2-container.select2-container--select-light-bordered .select2-selection--single{
+    border-color: var(--light);
+    background-color: var(--light);
+}
+
+.testimonial-single .testimonial-box {
+    margin: 3rem auto 0px;
+}
+
+.section-title > span{
+    color: var(--primary);
+}
+
+.how-it-works-wrap {
+    background: #f1f5f3;
+}
+
+.icon-style-text-bg .icon {
+    color: var(--secondary);
+}
+.icon-style-text-bg:hover .icon,
+.icon-style-text-bg:hover .text h6 {
+    color: var(--primary);
+}
+.how-it-works-wrap .partner-text{
+    padding: 2rem 0 0 0;
+    margin-bottom: 0;
+}
+.how-it-works-wrap .partner-text span,
+.how-it-works-wrap .partner-text a{
+    color: var(--secondary);
+}
+.how-it-works-wrap .partner-text a:hover{
+    color: var(--primary);
+}
+
+.tick-icon-bordered .icon-space{
+    border-color: var(--primary-light);
+    color: var(--secondary);
+}
+.img-about{
+    position: relative;
+}
+.img-about img{
+    box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.1);      
+}
+.about-us-img{
+    position: relative;
+}
+.counter-year{
+    background: var(--secondary);
+    padding: 1rem;
+    position: absolute;
+    left: 10%;
+    bottom: -40px;
+    border: 7px solid var(--white);
+    color: var(--white);
+}
+.counter-year h1{
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 0;
+}
+
+.about-office-stats-wrap{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+}
+.about-office-stats:not(:last-child){
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e3e6e6;
+}
+
+.about-office-stats i {
+    font-size: 3.5rem;
+    color: #cdced0;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.about-office-stats .counts {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1;
+    margin-bottom: 9px;
+}
+
+.tick-icon-bordered p{
+    margin-bottom: 0;
+}
+/* Buttons */
+.btn-light {
+    color: var(--primary);
+}
+.btn-outline-primary:hover,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus {
+    color: var(--white);
+    background-color: #14976e;
+    border-color: #14976e;
+}
+.btn-light.default:hover,
+.btn-light.default:focus,
+.btn-light.default.focus {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+.btn-outline-secondary:hover,
+.btn-secondary:hover,
+.btn-secondary.focus, 
+.btn-secondary:focus {
+    color: var(--white);
+    background-color: var(--primary) ;
+    border-color: var(--primary);
+}
+/* Buttons */
+
+.find-workspace{
+    margin-top: 9rem;
+}
+
+.space-solutions.pattern-white-bg.straight{
+    background-color: var(--secondary);
+    margin-bottom: 90px;
+    margin-top: 10rem;
+}
+.space-solutions.pattern-white-bg.straight .owl-carousel .owl-nav button:hover {
+    color: var(--primary);
+}
+.space-solutions .btn-cta-group{
+    padding-top: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.space-solutions-offgird{
+    margin-top: -10rem;
+}
+.space-solutions-offgird .owl-item{
+    padding: 4rem 1rem 0;
+}
+.space-solutions-offgird .portfolio-gallery-item .item-img .portfolio-img-gallery,
+.space-solutions-offgird .portfolio-gallery-item .item-img .portfolio-img-gallery .img-over{
+    border-radius: 0;
+}
+.space-solutions-offgird .portfolio-gallery-item .item-content{
+    color: var(--white);
+}
+.space-solutions-offgird .portfolio-gallery-item .item-content .sub-head{
+    color: var(--primary-light);
+}
+.space-solutions-offgird .portfolio-gallery-item .item-content h6 a{
+    color: var(--primary);
+}
+.space-solutions-offgird .portfolio-gallery-item .item-img .arrow{
+    background-color: var(--primary);
+    color: var(--white);
+}
+.space-solutions-offgird .portfolio-gallery-item .item-content h6 a:hover{
+    color: var(--primary-light);
+}
+.video-play-btn a {
+    background-color: var(--primary);
+    -webkit-animation: spineer-white 2s infinite;
+    animation: spineer-white 2s infinite;
+}
+
+.pricing-wrap,
+.pricing-saving{
+    border-radius: 0;
+}
+footer .text h4{
+    color: var(--primary-light);
+}
+.pricing-wrap.popular-plan.alternate-version {
+    background: var(--primary-light);
+}
+.popular-plan .plan-price, .popular-plan .pricing-info, .popular-plan .plan-name, .popular-plan .icons-listing li {
+    color: var(--secondary);
+}
+.alternate-version.pricing-wrap .pricing-saving,
+.pricing-wrap.popular-plan.alternate-version .popular-saving.pricing-saving{
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.pricing-wrap.popular-plan.alternate-version .pricing-saving{
+    background-color: var(--secondary);
+}
+.alternate-version.pricing-wrap .plan-price{
+    color: var(--secondary);
+}
+.pricing-wrap .divider-default{
+    border-color: #a8b8b1;
+}
+
+.pricing-wrap .plan-name{
+    color: var(--primary);
+}
+
+.popular-plan .plan-name,
+.section-title h2{
+    color: var(--secondary);
+}
+#testimonials-slider-leftimg.owl-carousel .owl-nav button, 
+#testimonials-slider-leftimg.owl-carousel .owl-nav button{
+    color: #d9dadc;
+}
+
+#testimonials-slider-leftimg.owl-carousel .owl-nav button:hover, 
+#testimonials-slider-leftimg.owl-carousel .owl-nav button:hover{
+    color: var(--primary);
+}
+
+.testimonial-single h2{
+    color: var(--secondary);
+}
+
+.testimonial-single .testimonial-box .name{
+    color: var(--primary);
+}
+
+
+.footer-wrap {
+    background: #fafafa;
+    padding: 7rem 0 0 0;
+}
+.footer-contact-cards{
+    box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.08);      
+    background: var(--white);
+    padding: 3rem;
+    margin-bottom: -4rem;
+    display: flex;
+    align-items: center;
+}
+.footer-contact-cards .icon-space{
+    margin-right: 1.5rem;
+    color: var(--primary);
+    font-size: 3.5rem;
+}
+.footer-contact-cards .content h6{
+    margin-bottom: 0.5rem;
+    color: var(--secondary);
+    font-weight: 600;
+}
+.footer-contact-cards a {
+    color: var(--secondary);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.footer-wrap.footer-coworking footer{
+    background-color: var(--secondary);
+    box-shadow: none;
+    border-radius: 0;
+    background-image: none;
+    color: var(--white);
+    padding-top: 8rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer-wrap.footer-coworking footer::before {
+    position: absolute;
+    content: "";
+    background-color: var(--primary);
+    width: 33%;
+    height: 450%;
+    left: 0;
+    top: -37%;
+    z-index: 1;
+}
+.footer-wrap.footer-coworking footer .container,
+.footer-cards-wrap{
+    position: relative;
+    z-index: 3;
+}
+.footer-wrap.footer-coworking .social-icons{
+    padding: 1.5rem 0;
+}
+.footer-wrap.footer-coworking .social-icons ul{
+    justify-content: flex-start;
+}
+.footer-wrap.footer-coworking .social-icons ul li a{
+    font-size: 1.25rem;
+    color: var(--white);
+}
+.footer-wrap.footer-coworking .social-icons ul li a:hover{
+    opacity: 1;
+}
+
+.opening-hours h4 {
+    color: var(--primary-light);
+}
+.opening-hours i{
+    color: var(--white);
+}
+.widget-listing.icons-listing-anchor li a::before, 
+.widget-listing.icons-listing li::before,
+.widget-listing li a:hover,
+.tiny-footer strong,
+.tiny-footer-links a{
+    color: var(--primary);
+}
+
+.widget-listing li a,
+footer .widget-title,
+.tiny-footer-links a:hover{
+    color: var(--primary-light);
+}
+
+.tiny-footer {
+    padding: 3rem 0;
+    margin-top: auto;
+    border: none;
+    color: var(--primary-light);
+}
+
+.subscribe-form{
+    padding: 1rem 0 0 0;
+}
+.subscribe-form .head{
+    margin-bottom: 0.5rem;
+    color: var(--secondary);
+    font-weight: 600;
+}
+.subscribe-form .input-wrap{
+    display: flex;
+}
+.subscribe-form .input-wrap .form-control {
+    border-color: transparent;
+    border-radius: 0;
+    border-right: 0;
+    margin-right: -2px;
+    background: var(--white);
+}
+.subscribe-form .input-wrap .btn{
+    background: #555a69;
+    color: var(--white);
+    border: none;
+}
+.subscribe-form .input-wrap .btn{
+    background: var(--secondary);
+    color: var(--white);
+    border-radius: 0;
+    width: auto;
+    margin: 0;
+}
+.subscribe-form .input-wrap .btn:hover,
+.subscribe-form .input-wrap .btn:focus{
+    background: var(--dark);
+}
+
+/*---- Singup/Signin Popups Start ---*/
+.popup-wrapper::after,
+.or-text span{
+    background-color: var(--light-gray);
+}
+.popup-wrapper{
+    background-color: var(--secondary);
+}
+/*---- Singup/Signin Popups End ---*/
+@media (max-width: 1600px) {
+    .footer-wrap.footer-coworking footer::before {
+        width: 30%;
+    }
+}
+@media (max-width: 1400px) {
+    .footer-wrap.footer-coworking footer::before {
+        width: 38%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1399px){
+    header .navbar .container{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .find-workspace{
+        margin-top: 11rem;
+    }
+}
+
+/* Media Queries */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    
+    .section-title h1 strong {
+        white-space: initial;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+    .square-feet{
+        transform: translateX(-18%);
+    }
+    .square-feet .counter-wrap {
+        clip-path: polygon(0 0, 89% 0, 66% 100%, 0% 100%);
+    }
+    .home-coworking .banner-shadow {
+        height: 800px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    
+}
+@media (min-width: 992px) and (max-width: 1099px) {
+    .home-coworking{
+        padding: 2rem 0 0 0;
+    }
+    .home-coworking .d-flex .btn {
+        padding: 0.7rem 1rem;
+    }
+}
+@media (max-width: 1200px) {
+    .square-feet{
+        transform: none;
+        margin-left: 3rem;
+    }
+    .square-feet .counter-wrap{
+        clip-path: none;
+    }
+    .home-coworking .banner-shadow{
+        background: none;
+        display: none;
+    }
+    .booking-form {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        margin-bottom: -40px;
+    }
+    .slides-wrap{
+        margin-bottom: 0;
+    }
+    .find-workspace {
+        margin-top: 9rem;
+    }
+    
+}
+@media (max-width: 991px) {
+    header {
+        background-color: transparent;
+    }
+    .offcanvas-backdrop.show {
+        background-color: var(--dark-theme);
+    }
+    .home-coworking{
+        padding: 1rem 0 0 0;
+    }
+    .footer-contact-cards {
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+    .footer-wrap.footer-coworking footer{
+        padding-top: 4rem;
+    }
+    .footer-wrap.footer-coworking footer::before{
+        display: none;
+    }
+    .footer-start{
+        padding: 3rem;
+        background: var(--primary);
+    }
+
+    .square-feet .counter-wrap h2{
+        font-size: 2.8rem;
+    }
+    .square-feet span{
+        font-size: 1rem;
+    }
+    .footer-wrap.footer-coworking .social-icons {
+        padding: 1.5rem 0 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .home-coworking .d-flex .btn {
+        padding: 0.7rem 1rem;
+        margin-top: 0;
+    }
+    .square-feet span{
+        padding-left: 0;
+    }
+    .square-feet {
+        transform: none;
+        margin-left: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .slides-wrap {
+        margin-bottom: 0;
+    }
+    .find-workspace{
+        margin-top: 3rem;
+    }
+    .home-coworking .home-default-banner .container{
+        padding-top: 1rem;
+    }
+    .booking-form .form-elements {
+        padding: 1.5rem;
+    }
+    .how-it-works-wrap .partner-text {
+        padding: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .about-office-stats-wrap {
+        margin: 1.5rem 0 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .about-office-stats:not(:last-child){
+        margin: 0;
+        padding: 0;
+        border-bottom: none;
+    }
+    .about-office-stats:not(:last-child){
+        margin-bottom: 1rem;
+    }
+
+    .footer-wrap {
+        padding: 3.571rem 0 0 0;
+    }
+    .footer-coworking .subscribe-form {
+        padding: 0;
+    }
+    .footer-start {
+        padding: 1.786rem;
+    }
+
+    .footer-wrap.footer-coworking footer {
+        padding-top: 2.143rem;
+    }
+
+    .tiny-footer{
+        padding: 1.5rem 0;
+    }
+    .space-solutions.pattern-white-bg.straight{
+        margin-bottom: 50px;
+    }
+
+    #home-coworking-banner.top-right-arrow .owl-nav{
+        top: 30px;
+        right: 30px;
+        position: absolute;
+        margin-top: 0;
+        justify-content: flex-end;
+        width: auto;
+    }
+}
+@media (max-width: 575px) {    
+
+    .about-office-stats{
+        width: 50%;
+    }
+   
+}
+
+@media (max-width: 480px) {
+    
+}
+@media (max-width: 320px) {
+    
+}

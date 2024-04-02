@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1331.635" height="1207.575" viewBox="0 0 1331.635 1207.575">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e5ebfb"/>
+      <stop offset="1" stop-color="#7d8bfe"/>
+    </linearGradient>
+  </defs>
+  <g id="round_abstract_bg" transform="translate(2248.674 -1938.424)">
+    <path id="Abstract_Shape" data-name="Abstract Shape" d="M2237.362,2171.524c-96.747-195.834-269.894-361.081-305.632-163.111s-588.576,107.572-688.809,63.649c-415.813-182.214-319.716,180.4-15.451,469.985,163.645,155.75,451.639,219.983,687.426,185.367C2195.477,2686.221,2402.133,2505.048,2237.362,2171.524Z" transform="translate(-3213 409.453)" opacity="0.2" fill="url(#linear-gradient)"/>
+    <path id="Abstract_Shape_copy" data-name="Abstract Shape copy" d="M1020.078,1945.069c1.94,143.83,57.96,291.158,135.363,183.643s380.308,103.047,427.416,157.586C1778.28,2512.553,1883.671,1812.418,1785,1554c-53.068-138.987-171.052,348.32-321,302C1285.564,1800.88,1016.774,1700.111,1020.078,1945.069Z" transform="translate(-3213 409.453)" opacity="0.102" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
