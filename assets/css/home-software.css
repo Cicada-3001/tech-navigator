@@ -81,6 +81,14 @@
     background: var(--primary);
 }
 
+.dropdown-toggle-arrow, 
+.dropdown-submenu-toggle.icon-left::before, 
+.dropdown-submenu-toggle::after, 
+.dropdown-toggle::after{
+    color: white !important;
+} 
+
+
 .navbar .dropdown-item.active,
 .navbar .dropdown-item:focus,
 .navbar .dropdown-item:hover,
@@ -142,7 +150,6 @@
     margin: 0;
     padding: 0.7rem 3rem;
     background: var(--white);
-    border-radius: 7px;
     box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.08);      
     margin-bottom: -1.5rem;
     text-align: center;

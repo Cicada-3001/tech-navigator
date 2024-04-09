@@ -214,6 +214,10 @@
     color: var(--primary);
 }
 
+.normal-text{
+    color: #1B1642;
+}
+
 .home-stats .tick-icon-big .icon-space{
     background: var(--white);
     color: var(--secondary);
@@ -224,7 +228,7 @@
 }
 
 .theme-accordian .accordion-flush .accordion-item .accordion-button:not(.collapsed){
-    background: var(--primary);
+    background: #1B1642;
 }
 
 
@@ -332,15 +336,10 @@
     border-radius: 7px;
     box-shadow: 0px 0px 68px 0px rgba(0, 0, 0, 0.1);
     
-    animation-duration: 2.3s;
-    animation-iteration-count: infinite;
-    transform-origin: center bottom;
-    animation-name: up-down-move;
-    animation-timing-function: linear;
+  
 }
 .home-services-imgs .off-pattern {
     position: relative;
-    animation-duration: 2.5s;
     margin-bottom: -150px;
     margin-left: -80px;
 }
@@ -465,7 +464,7 @@
         background-color: var(--light-blue);
     }
     .navbar-toggler .icon-bar{
-        background: var(--primary);
+        background: white;
     }
     .home-default-testimonials::after {
         left: -50px;
