@@ -1,5 +1,5 @@
 :root {
-    --primary: #fc5626;
+    --primary: #D35400;
     --secondary: #161b2f;
     --secondary-rgb: 22, 27, 47;    
     --light-blue: #f6f9fc;
@@ -12,9 +12,9 @@
     padding: 7rem 0 3rem;
 }
 .home-software{
-    background-image: -moz-linear-gradient( 90deg, rgba(255,147,76,0.99608) 0%, rgb(252,86,38) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgba(255,147,76,0.99608) 0%, rgb(252,86,38) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgba(255,147,76,0.99608) 0%, rgb(252,86,38) 100%);           
+    background-image: -moz-linear-gradient( 90deg, rgba(40, 100, 200) 0%, rgb(40, 100, 200) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(40, 100, 200) 0%, rgb(40, 100, 200) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgba(40, 100, 200) 0%, rgb(40, 100, 200) 100%);           
 }
 
 .top-bar{

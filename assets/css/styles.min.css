@@ -1219,7 +1219,7 @@
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
-  --primry: #fc5626;
+  --primry: #D35400;
   --secondry: #161b2f;
   --white: #ffffff;
   --bs-indigo: #6610f2;
@@ -20620,7 +20620,7 @@ i {
 :root {
   --primary: #5763de;
   --primary-rgb: 87, 99, 282;
-  --secondary: #fc7952;
+  --secondary: #D35400;
   --secondary-rgb: 252, 121, 82;
   --white: #fff;
   --light: #f2f2f2;
@@ -20636,7 +20636,7 @@ i {
   --error: #fe2724;
   --gdr-dark: linear-gradient(90deg, #3f4b4b, #2f3b3b);
   --gdr-primary: linear-gradient(90deg, #e5ebfb, #7d8bfe);
-  --gdr-secondary: linear-gradient(90deg, rgba(255, 147, 76, 0.996), #fc5626);
+  --gdr-secondary: linear-gradient(90deg, rgba(255, 147, 76, 0.996), #D35400);
   --gradient-light: linear-gradient(0deg, #f4f8fb, #fff);
   scroll-behavior: inherit;
 }
@@ -22733,11 +22733,11 @@ footer .text h4 {
   color: var(--white);
   display: flex;
   font-size: 1.5rem;
-  height: 45px;
+  height: 40px;
   justify-content: center;
   margin-right: 1.2rem;
-  min-width: 45px;
-  width: 45px;
+  min-width: 40px;
+  width: 40px;
 }
 .tick-icon-big .text-space h2 {
   font-size: 2.25rem;
@@ -24319,7 +24319,7 @@ hr:not([size]) {
 }
 .bordered.form-check-input:checked {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fc7952' stroke-linecap='round' stroke-linejoin='round' d='m6 10 3 3 6-6'/%3E%3C/svg%3E");
-  border-color: #fc7952;
+  border-color: #D35400;
 }
 .select2-container.select2-container--select-light-bordered
   .select2-selection--single {
@@ -24358,7 +24358,7 @@ hr:not([size]) {
 .bordered.form-dark.form-check-input:checked {
   background-color: transparent;
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fc7952' stroke-linecap='round' stroke-linejoin='round' d='m6 10 3 3 6-6'/%3E%3C/svg%3E");
-  border-color: #fc7952;
+  border-color: #D35400;
 }
 .bordered.form-dark.form-check-input:checked[type="radio"] {
   background-color: transparent;
@@ -25398,7 +25398,7 @@ hr:not([size]) {
   transform: scale(1.05);
 }
 .portfolio-gallery-item .item-img .portfolio-img-gallery {
-  background-color: var(--dark);
+  background-color: #f2f2f2;
   box-shadow: 0 0 68px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
@@ -25798,7 +25798,7 @@ hr:not([size]) {
 }
 @keyframes spineer {
   0% {
-    box-shadow: 0 0 0 0 #fc7952;
+    box-shadow: 0 0 0 0 #D35400;
   }
   70% {
     box-shadow: 0 0 0 20px rgba(1, 93, 199, 0);
@@ -26120,7 +26120,7 @@ hr:not([size]) {
 }
 .years-started .content h1 span.timer {
   color: var(--secondary);
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 .years-started .content span {
@@ -27842,7 +27842,7 @@ hr:not([size]) {
   left: 25px;
   right: 0;
   margin: 0 auto;
-  background: #fc7952;
+  background: #D35400;
   width: 100px;
   height: 100px;
   line-height: 90px;
@@ -27896,7 +27896,7 @@ hr:not([size]) {
   top: 0;
   width: 54px;
   height: 54px;
-  background-color: #fc7952;
+  background-color: #D35400;
   border: 2px solid white;
   border-radius: 50%;
   transform: translateX(-50%);
@@ -27939,7 +27939,7 @@ hr:not([size]) {
 }
 
 .stepline li .date {
-  color: #fc7952;
+  color: #D35400;
   padding-bottom: 6px;
 }
 
@@ -27955,7 +27955,7 @@ hr:not([size]) {
 }
 
 .stepline li .btnlink a i {
-  color: #fc7952;
+  color: #D35400;
 }
 
 /** 3.White-color **/
