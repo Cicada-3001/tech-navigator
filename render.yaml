@@ -1,5 +1,5 @@
 redirects:
-  - source: "^/(.*)\.html$"
-    destination: "/$1"
+  - source: "/:splat.html"
+    destination: "/:splat"
     type: 301
     force: true
