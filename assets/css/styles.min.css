@@ -4878,7 +4878,7 @@ fieldset:disabled .btn {
   border: 0;
   color: var(--bs-nav-link-color);
   display: block;
-  font-size: var(--bs-nav-link-font-size);
+  font-size: 17px !important;
   font-weight: var(--bs-nav-link-font-weight);
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   text-decoration: none;
@@ -28263,12 +28263,45 @@ h1{
 .center{
     position: absolute;
     top: 45%; 
+}
+
+
+.typing-demo {
+  width: 15ch;
+  -webkit-animation: typing 2s steps(18), blink .5s step-end infinite alternate, color 6s ease-in-out infinite;
+  animation: typing 2s steps(18), blink .5s step-end infinite alternate, color 6s ease-in-out infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  /* font-family: monospace; */
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+@keyframes typing {
+  from {
+      width: 0
   }
+}
+
+@keyframes blink {
+  50% {
+      border-color: transparent
+  }
+}
   
   .company-name{
     position:absolute;
     top: 52%;
   }
+
+.company-slogan{
+  position: absolute;
+  top: calc( 52% + 30px ); 
+  margin-right:100px;
+}
+
 
 .center span {
   position: absolute;
