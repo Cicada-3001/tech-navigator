@@ -76,10 +76,10 @@
                                 <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="our-services.html"
                                         data-bs-toggle="dropdown" aria-expanded="true">Services</a>
                                     <ul class="dropdown-menu" style="min-width: 300px">
-                                        <li><a class="dropdown-item" href="website-development.html">Website Design and Development</a></li>
-                                        <li><a class="dropdown-item" href="software-development.html">Software Development</a></li>
+                                       <li><a class="dropdown-item" href="software-development.html">Software Development</a></li>
                                         <li><a class="dropdown-item" href="digital-analytics.html">Digital Analytics</a></li>
                                         <li><a class="dropdown-item" href="#">Information System Consultancy</a></li>
+                                        <li><a class="dropdown-item" href="#">Custom SAAS</a></li>
                                         <li><a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a></li>
                                     </ul>
                                 </li>
@@ -112,7 +112,7 @@
                     class="bi bi-x"></i></button>
             <div class="popup-wrapper">
                 <div class="content">
-                    <h4>Request A Quote</h4>
+                    <h1>Request A Quote</h1>
                    
                     <div class="or-text"><span>Or Subscribe to Our Newletter</span></div>
                 </div>
@@ -121,7 +121,7 @@
         </article>
         <section class="breadcrumbs-page">
             <div class="container">
-                <h4 class="text-white heading">Contact Us</h4>
+                <h1 class="text-white heading">Contact Us</h1>
             </div>
         </section>
     </div>
@@ -131,8 +131,8 @@
                 <div class="row">
                     <div class="col-xl-5 col-lg-9 col-md-12 mx-auto text-center">
                         <div class="section-title text-center"><span>Contact us</span>
-                            <h4 class="wow">How can we help you?</h4>
-                            <h4 class="text-dark"> <strong>Get In Touch!</strong></h4>
+                            <h1 class="wow">How can we help you?</h1>
+                            <h1 class="text-dark wow"> <strong>Get In Touch!</strong></h1>
                             <p>We are always ready to serve you. It is our pleasure providing feedback almost immediately. Let's talk</p>
                         </div>
                     </div>
@@ -140,23 +140,23 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-9 col-md-12 mx-auto">
                         <div id="sucessmessage"></div>
-                        <form action="https://mannatstudio.com/html/Kompas IT/contact_process.php" method="post"
-                            id="contactusForm" novalidate="novalidate">
+                        <form name="contact-us" method="POST"
+                            id="contactusForm" novalidate="novalidate" netlify >
                             <div class="row g-3">
                                 <div class="col-md-6 mb-0"><input type="text"   style="border-radius: 0 !important;" data-rule-required="true"
                                         data-msg-required="Please enter your First Name" class="form-control"
-                                        name="First_Name" id="First_Name" placeholder="First Name*"></div>
+                                        name="firstname"  id="First_Name" placeholder="First Name*"></div>
                                 <div class="col-md-6 mb-0"><input type="text"  style="border-radius: 0 !important;" data-rule-required="true"
                                         data-msg-required="Please enter your Last Name" class="form-control"
-                                        name="Last_Name" id="Last_Name" placeholder="Last Name*"></div>
+                                        name="lastname" id="Last_Name" placeholder="Last Name*"></div>
                                 <div class="col-md-6 mb-0"><input type="email"   style="border-radius: 0 !important;" data-rule-required="true"
                                         data-msg-required="Please enter your Email" class="form-control"
-                                        id="Email_Address" name="Email_Address" placeholder="Email Address*" required>
+                                        id="Email_Address" name="email" placeholder="Email Address*" required>
                                 </div>
                                 <div class="col-md-6 mb-0"><input type="text" style="border-radius: 0 !important;" data-rule-required="true"
                                         data-msg-required="Please enter your Number" class="form-control"
-                                        id="Phone_Number" name="Phone_Number" placeholder="Phone Number*"></div>
-                                <div class="col-md-12 mb-0"><select  style="border-radius: 0 !important;" class="theme-combo" name="Combo_Box">
+                                        id="Phone_Number" name=" phone" placeholder="Phone Number*"></div>
+                                <div class="col-md-12 mb-0"><select name="service-type" style="border-radius: 0 !important;" class="theme-combo" name="Combo_Box">
                                         <option value>I interested in ...</option>
                                         <option value>Website Design and Development</option>
                                         <option value>Ecommerce Store Development</option>
@@ -165,7 +165,7 @@
                                         <option value>Software As A  Service Solutions</option>
                                         <option value>Information System Consultation</option>
                                     </select></div>
-                                <div class="col-md-12 mb-0"><textarea name="Your_Message"   style="border-radius: 0 !important;" id="Your_Message"
+                                <div class="col-md-12 mb-0"><textarea name="message"   style="border-radius: 0 !important;" id="Your_Message"
                                         name="Your_Message" rows="10" data-rule-required="true"
                                         data-msg-required="Please enter your Message" class="form-control"
                                         placeholder="Your Message"></textarea></div>
@@ -230,16 +230,7 @@
         <div class="container">
             <div class="footer-subscribe">
                 <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-4">
-                        <div class="social-icons">
-                            <ul class="list-unstyled">
-                                
-                                <li><a href="javascript:"><i class="bi bi-twitter-x"></i></a></li>
-                                
-                                <li><a href="javascript:"><i class="bi bi-linkedin"></i></a></li>
-                                
-                            </ul>
-                        </div>
+                    <div
                     </div>
                     <div class="col-lg-9 col-md-8">
                         <div class="align-items-center row form-inputs">
@@ -291,11 +282,11 @@
                             </div>
                             <div class="col-xxl-5 col-md-6 ms-auto">
                                 <div class="footer-widget">
-                                    <h4 class="widget-title">About Us</h4>
+                                    <h1 class="widget-title">About Us</h1>
                                     <p class="footer-text">We are dedicated to empowering businesses on their journey of digital transformation. With cutting-edge technologies and a team of skilled professionals.</p>
                                     <div class="opening-hours"><i class="bi bi-clock"></i>
                                         <div class="text">
-                                            <h4>Opening Hours</h4>
+                                            <h1>Opening Hours</h1>
                                             <div>Mon - Sat 8:00 - 17:30,<br>Sunday - CLOSED</div>
                                         </div>
                                     </div>
@@ -307,19 +298,20 @@
                         <div class="row">
                             <div class="col-md-4 col-12">
                                 <div class="footer-widget">
-                                    <h4 class="widget-title">Company</h4>
+                                    <h1 class="widget-title">Company</h1>
                                     <ul class="list-unstyled icons-listing mb-0 widget-listing">
-                                        <li><a href="about-us.html">About</a></li>
+                                         <li><a href="about-us.html">About</a></li>
                                         <li><a href="contact.html">Contact Us</a></li>
                                         <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="javascript:">Culture</a></li>
+                                        <li><a href="our-pricing.html">Pricing</a></li>
+                                        <li><a href="faqs.html">Testimonials & Faq’s</a></li> <li><a href="javascript:">Culture</a></li>
                                         <li><a href="javascript:">Jobs</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-md-4 col-12">
                                 <div class="footer-widget">
-                                    <h4 class="widget-title">Support</h4>
+                                    <h1 class="widget-title">Support</h1>
                                     <ul class="list-unstyled icons-listing mb-0 widget-listing">
                                         <li><a href="javascript:">Getting started</a></li>
                                         <li><a href="javascript:">Chat our support</a></li>
@@ -331,13 +323,13 @@
                             </div>
                             <div class="col-md-4 col-12">
                                 <div class="footer-widget">
-                                    <h4 class="widget-title">Services</h4>
+                                    <h1 class="widget-title">Services</h1>
                                     <ul class="list-unstyled icons-listing mb-0 widget-listing">
-                                        <li><a href="our-pricing.html">Pricing</a></li>
-                                        <li><a href="javascript:">Support</a></li>
-                                        <li><a href="javascript:">Sales and Refunds</a></li>
-                                        <li><a href="javascript:">Legal</a></li>
-                                        <li><a href="faqs.html">Testimonials & Faq’s</a></li>
+                                         <li><a href="software-development.html">Custom Software Development</a></li>
+                                        <li><a href="digital-analytics.html">Digital Analytics</a></li>
+                                        <li><a href="it-consultancy.html">Information System Consultancy</a></li>
+                                        <li><a href="javascript:">Custom SAAS</a></li>
+                                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
                                     </ul>
                                 </div>
                             </div>

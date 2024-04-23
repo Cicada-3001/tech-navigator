@@ -80,7 +80,7 @@
     color: var(--white);
     clip-path: polygon(0 0, 100% 0, 74% 100%, 0% 100%);
 }
-.square-feet .counter-wrap h2{
+.square-feet .counter-wrap h1{
     font-size: 3.75rem;
     color: var(--white);
     font-weight: 700;
@@ -133,7 +133,7 @@
     z-index: 4;
     height: 100%;
 }
-.booking-form h3{
+.booking-form h1{
     color: var(--white);
     margin-bottom: 1.5rem;
     font-weight: 400;
@@ -332,7 +332,7 @@
 .pricing-saving{
     border-radius: 0;
 }
-footer .text h4{
+footer .text h1{
     color: var(--primary-light);
 }
 .pricing-wrap.popular-plan.alternate-version {
@@ -362,7 +362,7 @@ footer .text h4{
 }
 
 .popular-plan .plan-name,
-.section-title h2{
+.section-title h1{
     color: var(--secondary);
 }
 #testimonials-slider-leftimg.owl-carousel .owl-nav button, 
@@ -375,7 +375,7 @@ footer .text h4{
     color: var(--primary);
 }
 
-.testimonial-single h2{
+.testimonial-single h1{
     color: var(--secondary);
 }
 
@@ -452,7 +452,7 @@ footer .text h4{
     opacity: 1;
 }
 
-.opening-hours h4 {
+.opening-hours h1 {
     color: var(--primary-light);
 }
 .opening-hours i{
@@ -629,7 +629,7 @@ footer .widget-title,
         background: var(--primary);
     }
 
-    .square-feet .counter-wrap h2{
+    .square-feet .counter-wrap h1{
         font-size: 2.8rem;
     }
     .square-feet span{

@@ -160,7 +160,7 @@
     background: var(--light-blue);
     color: var(--primary);
 }
-.tick-icon-bordered .text-space h4{
+.tick-icon-bordered .text-space h1{
     color: var(--secondary);
 }
 .home-services-tabs .tab-pane{
@@ -223,7 +223,7 @@
     background: var(--primary);
 }
 
-.home-default-faqs-counter .counter-text h2,
+.home-default-faqs-counter .counter-text h1,
 .alternate-version.pricing-wrap .plan-price{
     color: var(--secondary);
 }
@@ -263,8 +263,8 @@
 
 .testimonial-shadow .name, 
 .testimonial-single .testimonial-box .name,
-.testimonial-shadow h2, 
-.testimonial-single h2{
+.testimonial-shadow h1, 
+.testimonial-single h1{
     color: var(--secondary);
 }
 

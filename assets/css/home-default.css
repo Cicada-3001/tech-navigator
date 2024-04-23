@@ -210,7 +210,7 @@
     animation: spineer-white 2s infinite;
 }
 
-.home-stats .tick-icon-big .text-space h2{
+.home-stats .tick-icon-big .text-space h1{
     color: var(--primary);
 }
 
@@ -293,7 +293,7 @@
     overflow: hidden;    
     max-width: 80px;
 }
-.home-default-testimonials .testimonial-single-left .testimonial-box .content h3{
+.home-default-testimonials .testimonial-single-left .testimonial-box .content h1{
     color: var(--secondary);
 }
 .home-default-testimonials .testimonial-single-left .testimonial-box .content .rating{

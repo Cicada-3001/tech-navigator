@@ -5,5 +5,5 @@
       <stop offset="1" stop-color="#fff"/>
     </linearGradient>
   </defs>
-  <path id="Pricing_Bg" d="M0,549H1920v694s-117.723,243.422-871,4C527.54,1081.259,0,1363,0,1363Z" transform="translate(0 -548.999)" fill="url(#linear-gradient)"/>
+  <path id="Pricing_Bg" d="M0,549h1920v694s-117.723,243.422-871,4C527.54,1081.259,0,1363,0,1363Z" transform="translate(0 -548.999)" fill="url(#linear-gradient)"/>
 </svg>
